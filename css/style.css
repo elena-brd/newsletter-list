@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: #f5f7f2;
+    color: #232323;
+    line-height: 1.4;
+}
+
+img {
+    width: 150px;
+}
+
+p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#card .card-container {
+    background: #fff;
+    width: 600px;
+    height: 100%;
+    margin: 2rem auto;
+    padding: 2.3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px -5px rgb(174, 174, 174);
+}
+
+#card .column {
+    display: flex;
+    gap: 1rem;
+}
+
+#card .column>div {
+    padding-bottom: 0.9rem;
+}
+
+#card .column h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+#card .column p {
+    line-height: 1.6;
+}
+
+#card .main-title {
+    text-align: center;
+}
+
+#card .main-title h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-bottom: 0.9rem;
+}
+
+#card .main-title p {
+    padding-bottom: 3rem;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background: #e8e8e8;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 1rem 0;
+    cursor: pointer;
+    /* margin: 0; */
+}
+
+/* checkbox */
+input[type="checkbox"]:checked {
+    border: 8px solid #e8e8e8;
+    background: #047dad;
+}
+
+/* subscribe form */
+#card .subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card .subscribe-form input,
+#card .subscribe-form button {
+    width: 65%;
+    padding: 0.8rem 0;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#card .subscribe-form {
+    box-shadow: 0px -30px 25px 30px rgb(255, 255, 255);
+}
+
+#card .subscribe-form input {
+    background: #f5f7f2;
+    border: 2px solid #e8e8e8;
+}
+
+#card .subscribe-form input::placeholder {
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 0.5rem;
+    font-size: 0.9rem;
+}
+
+#card .subscribe-form input:focus {
+    outline: none;
+    border-color: #047dad;
+}
+
+#card .subscribe-form button {
+    background: #047dad;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px -4px rgba(4, 125, 173, 1);
+}
+
+#card .subscribe-form button:hover {
+    background: #e8e8e8;
+    color: #232323;
+    border-color: #e8e8e8;
+    box-shadow: none;
+}
+
+#card .privacy p {
+    color: #777;
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 1rem 4.5rem;
+
+}
